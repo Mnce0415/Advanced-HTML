@@ -1,13 +1,33 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <!-- external css -->
+            <link rel="stylesheet" href="Intro CSS/style.css">
             <title>Physical Science Grade 12</title>
+            <!--internal css-->
+            <style>
+                body{
+                    color: darkgreen
+                }
+            </style>
+            <style>
+                div{
+                    border: 5px solid darkorange;
+                    padding: 10px 10px 10px 10px;
+                }
+                img {
+                    margin: 10px 180px 15px 300px;
+                }
+            </style>
         </head>
         <body>
-            <h1>Physical Science Grade 12</h1>
-            <img src="Chemistry.jpg" alt="Chemical analysis" width="180" height="150">
+            <!-- inline css -->
+            <h1 style="color: black;text-align: center;">Physical Science Grade 12</h1>
             <img src="Newton's Second Law of motion.jpg" alt="Second law of motion" width="180" height="150">
             <img src="Acid and Bases.jpg" alt="Chemical analysis" width="180" height="150">
+            <h2>
+            <p style="text-align: center;color: black;"> The fundamentals of chemistry and physics</p>
+            </h2>
             <h3>Ordered Lists</h3>
             <ol type="i">
                 <li>Mechanics</li>
@@ -26,9 +46,9 @@
                 <dt>Acid and Bases</dt>
                 <dd>an acid is a substance that releases hydrogen ions (H+) when dissolved in water, while a base is a substance that releases hydroxide ions (OH-) when dissolved in water.</dd>
             </dl>
-            <video loop="" autoplay="" src="Chemical illustration - Acid & Bases.mp4" width="250" height="250"></video>
+            <video style="padding: 1px;" loop="" autoplay="" src="Chemical illustration - Acid & Bases.mp4" width="250" height="250"></video>
             <h3>Chemical names</h3>
-            <table border="1">
+            <table border="5">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -91,5 +111,13 @@
                 <button>Registration</button>
                 <input type="button" value="Cancels">
             </form>
+            <div>
+                <img src="Images/Chem1.jpg" width="180" height="150">
+                <img src="Images/Chem2.jpg" width="180" height="150">
+            </div>
+            <a id="khanacademy" href="https://www.khanacademy.org/">Khan Academy</a>
+            <footer class="home-footer">
+                Chemistry & Physics &copy; 2025
+            </footer>
         </body>
     </html>
